@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Contect | Code Artistic</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header class="simple-header"><nav class="navbar"><a class="logo" href="index.html">Code Artistic</a><div class="menu"><a href="index.html">Home</a><a href="hill-station.html">Hill Station</a><a href="explore.html">Explore</a><a class="active" href="contact.html">Contect</a></div><a class="register" href="register.html">Register</a></nav></header>
+<main class="form-section"><p class="eyebrow">WE'D LOVE TO HEAR FROM YOU</p><h1>Contact Us</h1><p class="intro">Send us a message and we'll get back to you.</p>
+<form class="site-form" onsubmit="event.preventDefault(); document.getElementById('contact-message').textContent='Thanks! This demo form is ready to connect to a backend.';">
+<label for="name">Full Name</label><input id="name" name="name" type="text" placeholder="Enter your name" required>
+<label for="email">Email Address</label><input id="email" name="email" type="email" placeholder="Enter your email" required>
+<label for="subject">Subject</label><input id="subject" name="subject" type="text" placeholder="What is this about?" required>
+<label for="message">Message</label><textarea id="message" name="message" rows="5" placeholder="Write your message..." required></textarea>
+<button class="btn" type="submit">Send Message</button><p id="contact-message" class="form-message" aria-live="polite"></p>
+</form></main><footer><p>© 2026 Code Artistic. All rights reserved.</p></footer></body></html>
